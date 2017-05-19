@@ -10,6 +10,11 @@ Tobias Weyand, Ilya Kostrikov, James Philbin
 https://research.google.com/pubs/pub45488.html
 
 ## Difference between our model and PlaNet:
+
+|               | Ours  | PlaNet |
+|---------------|-------|--------|
+|Dataset        |Multimedia Commons|Images crawled from the web|
+
 ### Ours
 We used 35 million geo-tagged images from YFCC100M dataset (Flickr images). 
 (33.9 M for training, 1.8 M for validation)
