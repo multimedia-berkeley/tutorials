@@ -13,7 +13,13 @@ https://research.google.com/pubs/pub45488.html
 
 |               | Ours  | PlaNet |
 |---------------|-------|--------|
-|Dataset        |Multimedia Commons|Images crawled from the web|
+|Dataset source        |Multimedia Commons|Images crawled from the web|
+|Training set|33.9 million|91 million|
+|Validation|1.8 million|34 million|
+|S2 Cell Partitioning|t_1=5000, t_2=500 ==> 15,527 cells|t_1=10,000, t_2=50 ==> 26,263 cells|
+|Training time| 9 days on 16 NVIDIA K80 GPUs (p2.16xlarge), 12 epochs|2.5 months on 200 CPU cores|
+|Framework|MXNet | DistBelief|
+|Test set|Placing Task 2016 Test Set (1.5 million Flickr images)|2.3 M geo-tagged Flickr images|
 
 ### Ours
 We used 35 million geo-tagged images from YFCC100M dataset (Flickr images). 
