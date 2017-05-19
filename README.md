@@ -25,6 +25,7 @@ https://research.google.com/pubs/pub45488.html
 ## Result
 ### Im2GPS test set 
 The values indicate the percentages of images within test set that were correctly localized within the given distance. 
+
 |Method|1km|25km|200km|750km|2500km|
 |------|---|----|-----|-----|------|
 |PlaNet|8.4|24.5|37.6|53.6|71.3|
@@ -33,6 +34,7 @@ The values indicate the percentages of images within test set that were correctl
 ### Flickr Images 
 Note that this result is not directly comparable as the test set images used in PlaNet is not publicly released. 
 The values indicate the percentages of images within test set that were correctly localized within the given distance. 
+
 |Method|1km|25km|200km|750km|2500km|
 |------|---|----|-----|-----|------|
 |PlaNet|3.6|10.1|16.0|28.4|48.0|
