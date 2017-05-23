@@ -40,7 +40,7 @@ The values indicate the percentages of images within test set that were correctl
 |Ours|16.8%|39.2%|48.9%|67.9%|82.2%|
 
 ### Flickr Images 
-Note that this result is not directly comparable as the test set images used in PlaNet is not publicly released. 
+Note that these result in the table are not directly comparable as the test set images used in PlaNet is not publicly released. 
 The values indicate the percentages of images within test set that were correctly localized within the given distance. 
 
 |Method|1km|25km|200km|750km|2500km|
